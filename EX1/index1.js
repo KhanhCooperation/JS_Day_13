@@ -3,5 +3,4 @@ function tienLuong(){
     var woDay = document.getElementById("workingDay").value*1;
     var money = saPeDay * woDay;
     document.getElementById("result").innerText=`${money}`;
-    
 }
